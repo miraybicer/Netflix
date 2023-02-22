@@ -1,0 +1,99 @@
+html,
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(https://muratakdag.github.io/Netflix-Survey-Form/netflixbackground.jpg);
+}
+.container {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 30px auto;
+}
+
+/* Header */
+
+.head-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.movie {
+  margin: 0;
+  font-size: 55px;
+  font-family: "Bowlby One SC", cursive;
+  letter-spacing: 7px;
+  color: #fff;
+}
+.movie span {
+  color: red;
+}
+.thanks {
+  color: #fff;
+  text-align: center;
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 23px;
+  margin-bottom: 12px;
+}
+/* Forms */
+
+.box-container {
+  width: 500px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: auto;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px;
+}
+.box label {
+  color: #fff;
+  padding: 10px;
+}
+.box input {
+  height: 30px;
+}
+.box select {
+  height: 60px;
+}
+
+/* Movie Type */
+.cb-box {
+  color: #fff;
+  padding: 0 25px;
+}
+
+.box1 {
+  color: #fff;
+  padding: 0 25px;
+}
+#submit {
+  background-color: red;
+  border-radius: 50px;
+  height: 45px;
+  width: 160px;
+  color: #fff;
+  font-size: larger;
+  cursor: pointer;
+  margin: 16px 0 16px 150px;
+  border: none;
+}
+
+#submit:hover {
+  height: 45px;
+  width: 160px;
+  background-color: #fff;
+  color: red;
+}

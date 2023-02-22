@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="app.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="head-area">
+        <h1 class="movie">Net<span>flix</span></h1>
+        <h3 class="thanks">
+          Thank you for signing up at Netflix. Tell us more about yourself.
+        </h3>
+      </div>
+      <form action="q" id="netflix-form">
+        <div class="box-container">
+          <div class="box">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" placeholder="Adınız" name="name" id="name" required />
+          </div>
+          <div class="box">
+            <label for="age" id="age-label">Age</label>
+            <input type="number" placeholder="Yaşınız" name="age" id="age" min="18" max="99" required />
+          </div>
+          <div class="box">
+            <label for="mail" id="mail-label">E-mail</label>
+            <input type="text" placeholder="example@gmail.com" name="mail" id="mail" required />
+          </div>
+          <div class="box">
+            <label for="content" id="content-label">Content Type</label>
+            <select name="content-type" id="content">
+              <option value="movie">Movie</option>
+              <option value="series">Series</option>
+            </select>
+          </div>
+          <div class="cb-box">
+            <p>Movie Type</p>
+            <div class="cb-item">
+              <input type="checkbox" name="comedy" id="comedy">
+              <label for="comedy">Comedy</label>
+            </div>
+            <div class="cb-item">
+              <input type="checkbox" name="action" id="action">
+              <label for="action">Action</label>
+            </div>
+            <div class="cb-item">
+              <input type="checkbox" name="romace" id="romance">
+              <label for="romance">Romance</label>
+            </div>
+          </div>
+          <div class="cb-box">
+            <p>Gender</p>
+            <div class="-item">
+              <input type="radio" name="male" id="male">
+              <label for="male">Male</label>
+            </div>
+            <div class="cb-item">
+              <input type="radio" name="female" id="female">
+              <label for="female">Female</label>
+            </div>
+            <div class="cb-item">
+              <input type="radio" name="other" id="other">
+              <label for="other">Other</label>
+            </div>
+          </div>
+
+          <div class="box1">
+            <label for="text" id="feedback-item">Feedback</label>
+            <textarea name="write" id="text" cols="57" rows="7">
+Enter Your Comment</textarea
+            >
+          </div>
+          <input type="button" value="Send" id="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
